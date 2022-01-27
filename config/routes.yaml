@@ -1,0 +1,7 @@
+api_login_check:
+  path: /api/login_check
+
+register:
+  path: /register
+  controller: App\Controller\RegistrationController::registrationAction
+  methods: POST
